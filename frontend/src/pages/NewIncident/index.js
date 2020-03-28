@@ -53,7 +53,7 @@ export default function NewIncident() {
             Voltar para home
           </Link>
         </section>
-        <form onSubmit={handleNewIncident }>
+        <form onSubmit={handleNewIncident}>
           <input 
             placeholder="Título do casa"
             value={title}
